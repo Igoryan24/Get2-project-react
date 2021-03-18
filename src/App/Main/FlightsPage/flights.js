@@ -3,7 +3,7 @@ const flights = [
     {
         id:1,
         head: "AZUR Air Ukraine",
-        photo: "/images/azurair.jpg",
+        photo: "images/azurair.jpg",
         description: `Подорожуйте безпечно разом з AZUR Air Ukraine, за доступними цінами!
             Авіакомпанія отримала ну майже новий, досить рідкісний Boeing 757-300 родом з Ізраїлю. На даний момент авіакомпанія налічує:
         Boeing 737-800 і Boeing 767-300er - по 3 літака;`,
