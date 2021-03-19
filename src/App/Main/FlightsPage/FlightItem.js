@@ -14,10 +14,16 @@ const FlightItem = ({
 }) => {
     const id = match.params.id
     /*console.log(match)*/
-    console.log(flightsObject)
+    /*console.log(flightsObject)*/
     return(
-    
-        <div className="flights-head"> {flightsObject[id].head}</div>
+        <>
+            <div className="flights-head"> {flightsObject[id].head}</div>
+            <div
+                dangerouslySetInnerHTML={{
+                    __html:flightsObject[id].fullDescription
+                }}
+            ></div>
+        </>
     )
 }
 
