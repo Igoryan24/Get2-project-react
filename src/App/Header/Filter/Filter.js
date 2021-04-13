@@ -34,7 +34,7 @@ const Filter = () => {
                             <option value="istanbul">Istanbul</option>
                             <option value="marsel">Marsel</option>
                             <option value="stockholm">Stockholm</option>
-                            <option value="berlin">berlin</option>
+                            <option value="Berlin">berlin</option>
                         </select>
                     </div>
                     <div className="select-block">
