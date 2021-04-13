@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/get2-project-react/static/css/main.c58c5bc8.chunk.css",
+    "main.js": "/get2-project-react/static/js/main.074c8c05.chunk.js",
+    "main.js.map": "/get2-project-react/static/js/main.074c8c05.chunk.js.map",
+    "runtime-main.js": "/get2-project-react/static/js/runtime-main.afde8191.js",
+    "runtime-main.js.map": "/get2-project-react/static/js/runtime-main.afde8191.js.map",
+    "static/css/2.2b0d90ed.chunk.css": "/get2-project-react/static/css/2.2b0d90ed.chunk.css",
+    "static/js/2.0c2a29ef.chunk.js": "/get2-project-react/static/js/2.0c2a29ef.chunk.js",
+    "static/js/2.0c2a29ef.chunk.js.map": "/get2-project-react/static/js/2.0c2a29ef.chunk.js.map",
+    "index.html": "/get2-project-react/index.html",
+    "static/css/2.2b0d90ed.chunk.css.map": "/get2-project-react/static/css/2.2b0d90ed.chunk.css.map",
+    "static/css/main.c58c5bc8.chunk.css.map": "/get2-project-react/static/css/main.c58c5bc8.chunk.css.map",
+    "static/js/2.0c2a29ef.chunk.js.LICENSE.txt": "/get2-project-react/static/js/2.0c2a29ef.chunk.js.LICENSE.txt",
+    "static/media/London.168d1118.jpg": "/get2-project-react/static/media/London.168d1118.jpg",
+    "static/media/Paris.9eab42db.jpg": "/get2-project-react/static/media/Paris.9eab42db.jpg",
+    "static/media/azurair.2beb0b8f.jpg": "/get2-project-react/static/media/azurair.2beb0b8f.jpg",
+    "static/media/bali.e53e419e.jpg": "/get2-project-react/static/media/bali.e53e419e.jpg",
+    "static/media/style.scss": "/get2-project-react/static/media/zanzibar.04c1f374.jpg",
+    "static/media/greece.0a1c7cdc.jpg": "/get2-project-react/static/media/greece.0a1c7cdc.jpg",
+    "static/media/mau.99c4bed1.jpg": "/get2-project-react/static/media/mau.99c4bed1.jpg",
+    "static/media/sicilia.3d4bb4fd.jpg": "/get2-project-react/static/media/sicilia.3d4bb4fd.jpg",
+    "static/media/skyup2.3ded1b30.jpg": "/get2-project-react/static/media/skyup2.3ded1b30.jpg",
+    "static/media/vietnam.77714407.jpg": "/get2-project-react/static/media/vietnam.77714407.jpg",
+    "static/media/windrose.d1f3f402.jpeg": "/get2-project-react/static/media/windrose.d1f3f402.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afde8191.js",
+    "static/css/2.2b0d90ed.chunk.css",
+    "static/js/2.0c2a29ef.chunk.js",
+    "static/css/main.c58c5bc8.chunk.css",
+    "static/js/main.074c8c05.chunk.js"
+  ]
+}
