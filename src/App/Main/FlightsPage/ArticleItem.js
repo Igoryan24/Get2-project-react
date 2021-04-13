@@ -6,11 +6,9 @@ const ArticleItem = ({
     id,
     head,
     photo,
-    //image,
     classwindrose,
     description,
     color,
-
 }) => {
     return (
         <>

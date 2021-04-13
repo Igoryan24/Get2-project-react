@@ -1,9 +1,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Navigation} from 'swiper';
 
 import 'swiper/swiper.scss';
+import 'swiper/components/navigation/navigation.scss';
 import "./mdTour.scss"
 import SlideItem from './SlideItem';
 import slides from './Slides';
+
+SwiperCore.use([Navigation]);
 
 export default () => {
   return (
@@ -14,6 +18,7 @@ export default () => {
       loopedSlides={3}*/
       speed={500}
       watchOverflow={true}
+      navigation
       breakpoints= {{
         320: {
             width: 280,

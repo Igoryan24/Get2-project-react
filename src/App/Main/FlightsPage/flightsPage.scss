@@ -2,13 +2,6 @@ a {
     text-decoration: none;
 }
 
-.flights-head {
-    padding: 30px 0;
-    text-align: center;
-    font-size: 30px;
-    color: black;
-}
-
 //Item
 
 .description-row {
@@ -16,12 +9,39 @@ a {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     margin-bottom: 50px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: rgb(63, 56, 56);
+    border: 3px solid #12604a;
+    padding: 15px;
 }
 .fly-description {
-    font-size: 15px;
+    color: #1568b6;
+}
+//.f-description {}
+.section-item {
+    background-color: #ffffff;
+}
+
+.article-head {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+//Testimonials
+.testimonials {
+    margin: 50px 0;
     line-height: 1.5;
-    background-color: #dadada;
-    padding: 15px;
+    .reviews {
+        padding: 10px;
+        .review-item {
+            margin-bottom: 20px;
+        }
+    }
+    //background-color: aliceblue;
+    .head-testimonials {
+        font-size: 20px;
+    }
 }
 
 //Tablet
@@ -87,6 +107,25 @@ a {
             font-size: 20px;
             color: rgb(100, 98, 98);
         }
+    }
+    .flighthead-row {
+        display: grid;
+        grid-template-columns: 25% 15% 35% 25%;
+    }
+    .flights-head {
+        grid-column: 3/4;
+        padding: 30px 0;
+        text-align: center;
+        font-size: 25px;
+        color: black;
+    }
+    .icon-head {
+        grid-column: 2/3;
+        background-size: cover;
+        width: 70px;
+        height: 50px;
+        align-self: center;
+        justify-self: self-end;
     }
 }
 //Laptop
@@ -160,6 +199,26 @@ a {
             color: rgb(100, 98, 98);
         }
     }
+    .flighthead-row {
+        display: grid;
+        grid-template-columns: 2.5fr repeat(4, 0.5fr) 2fr
+    }
+    .flights-head {
+        grid-column: 3/6;
+        padding: 30px 0;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+    }
+    .icon-head {
+        grid-column: 2/3;
+        background-size: cover;
+        width: 70px;
+        height: 50px;
+        align-self: center;
+        justify-self: center;
+    }
+
 }
 
 @media(min-width: 1200px) {
@@ -170,5 +229,75 @@ a {
 
 //Mobile
 @media(max-width: 767px) {
+    .row-article {
+        display: grid;
+        grid-template-rows: repeat(4, 600px);
+        grid-row-gap: 30px;
+        margin-bottom: 100px;
+    }
+    .article-item {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 450px;
+    }
 
+    .photo-article {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border: 5px solid #d1d1d1;
+    }
+
+    .article-row {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        .head-article {
+            grid-row: 1/2;
+            color: #ffff;
+            font-size: 25px;
+            margin: 10px;
+            justify-self: center;
+            align-self: center;
+            border-left: 3px solid transparent;
+            padding: 0px 10px;
+            cursor: pointer;
+            &:hover {
+                border-left: 3px solid #ffff;
+                transition: all 0.5s ease-out;
+            }
+        }
+        .article {
+            grid-row: 2/3;
+            align-self: center;
+            text-align: center;
+            padding: 15px;
+            background-color: rgb(209, 209, 209,);
+            line-height: 1.5;
+            font-size: 20px;
+            color: rgb(100, 98, 98);
+        }
+    }
+    .flighthead-row {
+        display: grid;
+        grid-template-columns: 25% 75%;
+        padding: 0 15px;
+    }
+    .flights-head {
+        grid-column: 2/3;
+        padding: 30px 0;
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+    .icon-head {
+        grid-column: 1/2;
+        background-size: cover;
+        width: 70px;
+        height: 50px;
+        align-self: center;
+        justify-self: self-end;
+    }
 }

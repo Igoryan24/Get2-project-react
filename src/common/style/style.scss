@@ -575,13 +575,13 @@ body {
         grid-template-columns: 3fr 5fr 1.5fr;
         grid-template-areas: "filter-block other . ";
     }
-    .filter-block {
+    /*.filter-block {
         grid-area: filter-block;
         border: 1px solid white;
         height: 480px;
         width: 270px;
         margin: 40px 0px;
-    }
+    }*/
 
     .other {
         display: grid;
